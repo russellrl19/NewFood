@@ -1,9 +1,7 @@
 from django.conf.urls import url
 from django.views.generic import RedirectView
 
-
-from . import api
-from . import views
+import views
 
 urlpatterns = [
 
