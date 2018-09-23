@@ -2,9 +2,10 @@
   "name": "node-demo",
   "version": "1.0.0",
   "description": "demo for mongodb",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "index.js",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,7 @@
     "mongoose",
     "demo"
   ],
-  "author": "",
+  "author": "Ryan Russell",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/russellrl19/NewFood/issues"
@@ -25,6 +26,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "mocha": "^5.2.0",
     "mongoose": "^5.2.17"
   }
 }
