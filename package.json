@@ -1,0 +1,30 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "demo for mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russellrl19/NewFood.git"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "mongoose",
+    "demo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/russellrl19/NewFood/issues"
+  },
+  "homepage": "https://github.com/russellrl19/NewFood#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17"
+  }
+}
